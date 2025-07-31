@@ -1,0 +1,67 @@
+# ─────────────────────────────
+# ✅ Miscellaneous
+# ─────────────────────────────
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ─────────────────────────────
+# ✅ IDE Settings
+# ─────────────────────────────
+
+# IntelliJ/Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (optional — uncomment if you want to ignore it)
+#.vscode/
+
+# ─────────────────────────────
+# ✅ Flutter/Dart/Pub Related
+# ─────────────────────────────
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Flutter API docs output
+doc/api/
+
+# iOS
+**/ios/Flutter/.last_build_id
+
+# Android Studio Gradle Artifacts
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# ─────────────────────────────
+# 🔒 Firebase and Secrets
+# ─────────────────────────────
+# Firebase Android config
+android/app/google-services.json
+
+# Firebase iOS config
+ios/Runner/GoogleService-Info.plist
+
+# Firebase-generated options
+lib/firebase_options.dart
+
+# ─────────────────────────────
+# 🔐 Symbolication & Obfuscation
+# ─────────────────────────────
+app.*.symbols
+app.*.map.json
