@@ -131,17 +131,6 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                                   controller: _phoneController,
                                   maxLength: 10,
                                   hintText: 'Email or Phone Number',
-                                  validator: (value) {
-                                    if (value == null || value.trim().isEmpty) {
-                                      return 'Phone number is required';
-                                    }
-
-                                    final phoneRegex = RegExp(r'^[6-9]\d{9}$');
-                                    if (!phoneRegex.hasMatch(value.trim())) {
-                                      return 'Enter a valid 10-digit phone number';
-                                    }
-                                    return null;
-                                  },
                                 )
                                 :
                                 // OTP input

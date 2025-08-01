@@ -11,7 +11,7 @@ Future<void> main() async {
   await Firebase.initializeApp();
   await ScreenUtil.ensureScreenSize();
 
-  runApp(ProviderScope(child: const MyApp()));
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
